@@ -10,6 +10,8 @@ from django.contrib.auth.models import User
 def base(response):
     return render(response, 'locky/base.html')
 
-
 def home(response):
     return render(response, 'locky/home.html')
+
+
+    

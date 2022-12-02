@@ -2,7 +2,7 @@
 
 body {background-color:rgba(180, 180, 180, 0.582);}
 
-.sidenav {
+.topnav {
     font-family: sans-serif;
     height: 100%;
     width: 160px;
@@ -15,7 +15,7 @@ body {background-color:rgba(180, 180, 180, 0.582);}
     padding-top: 25px;
 }
 
-.sidenav a {
+.topnav a {
     padding: 12px 8px 2px 20px;
     text-decoration: none;
     font-size: 18px;
@@ -24,7 +24,7 @@ body {background-color:rgba(180, 180, 180, 0.582);}
     margin-left: 18px;
 }
 
-.sidenav a:hover{
+.topnav a:hover{
     color: #c0c0c0;
 }
 

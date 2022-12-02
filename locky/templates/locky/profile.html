@@ -1,6 +1,6 @@
 {% extends 'locky/base.html' %}
 
-{% block title %} Home Page {% endblock %}
+{% block title %} Loged In {% endblock %}
 
 {% load crispy_forms_tags %}
 
@@ -9,10 +9,7 @@
     <div class="d-flex align-items-center">
         <div class="text-center">
             <h1>Welcome to LockyPass</h1>
-            {% if user.is_authenticated %}
-                <h2>You are loged in now as {{user.username}}</h2>
-                
-            {% endif %}
+            <h2>You are loged in now as {{user.username}}</h2>
         </div>
     </div>    
 
