@@ -13,5 +13,6 @@ def base(response):
 def home(response):
     return render(response, 'locky/home.html')
 
-
+def safe(response):
+    return render(response, 'locky/safe.html')
     
